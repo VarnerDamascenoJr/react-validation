@@ -69,7 +69,7 @@ const Register = () => {
             setUser('');
             setPwd('');
             setMatchPwd('');
-            
+
         } catch (err) {
             if (!err?.response) {
                 setErrMsg('No Server Response');
@@ -88,7 +88,7 @@ const Register = () => {
                 <section>
                     <h1>Success!</h1>
                     <p>
-                        <a href="#">Sign In</a>
+                        <a href="/">Sign In</a>
                     </p>
                 </section>
             ) : (
